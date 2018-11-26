@@ -7,5 +7,6 @@ cc_library(
     srcs = glob(["*.c"]),
     hdrs = glob(["*.h"]),
     includes = ["."],
+    copts = ["-std=gnu99"],
     deps = [],
 )
