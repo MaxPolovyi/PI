@@ -45,6 +45,7 @@ cc_library(
             "src/pi_value.c",
             "src/pi_mc.c",
             "src/device_map.c",
+            "src/pi_clone.c",
             "src/device_map.h",
             ":pihdrs"],
     hdrs = glob(["include/PI/*.h", "include/PI/target/*.h"])
